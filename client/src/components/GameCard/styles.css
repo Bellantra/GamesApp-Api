@@ -1,0 +1,57 @@
+.card {
+  opacity: 0.9;
+    width: 10rem;
+    height: 18rem;
+    border: none;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 9px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.image {
+    height: 60%;
+  }
+  
+  .image img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .detail h3 {
+    margin-top: 8px;
+    color: #DDDDDD;
+  }
+  
+  .detail p {
+    margin-top: 4px;
+    color: whitesmoke;
+    font-family: 'Play', sans-serif;
+    font-size: small;
+  }
+  
+  .detail button {
+    border-radius: 9px;
+    background:#7B113A;
+    color: whitesmoke;
+    border: 2px solid;
+    padding: 7px 13px;
+    box-shadow: 0 0 8px #fff;
+  }
+  
+  .detail button:hover {
+    cursor: pointer;
+    text-shadow: 0 0 5px #fff;
+  }
+  
+  .detail {
+    color: whitesmoke;
+  }
+  
+  .detail {
+    height: 40%;
+  }

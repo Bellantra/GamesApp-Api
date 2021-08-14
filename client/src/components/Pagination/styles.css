@@ -1,0 +1,33 @@
+.container-nav{
+  background-image: url("../../img/fondonav.jpg");
+}
+.pagination {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 0em;
+    margin-block-end: 0em;
+  
+}
+.pagination button {
+  border-radius: 4px;
+}
+
+.page-link {
+  background-color:  #0F2027;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.page-link:hover{
+    background-color: white;
+    color: #0F2027;
+}
+ .page-number{
+    padding: 0.3rem;
+    /* border: 1px solid white; */
+    cursor: pointer;
+ }
+  /* VER CUANDO QUEDA CLICKEADO EL BOTON CON ACTIVE!! */

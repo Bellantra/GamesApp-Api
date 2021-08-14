@@ -1,0 +1,128 @@
+.form-general {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../img/fondo4.jpg");
+  padding-bottom: 2rem;
+}
+.titulo-form {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.titulo-form h1 {
+  color: whitesmoke;
+  background-color:rgb(48,71,94,0.8);
+  width: fit-content;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  padding: 5px;
+  margin: auto;
+  border-radius: 3%;
+  /* background: #ffffff; */
+  color: #111111;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  background-color:rgb(232,232,232,0.9);
+  
+}
+.form-container form {
+  background: #a7d0cd;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+}
+.form-container legend {
+  color: #384313;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 1px #325288;
+}
+.form-group {
+  background: #b9cf6a;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: #e3ebc3;
+  border-color: rgba(255, 255, 255, 0.6);
+  border-style: solid;
+  border-width: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 0.8rem;
+}
+.form-group input {
+  padding: auto;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font: italic 13px Georgia, "Times New Roman", Times, serif;
+}
+
+.form-group textarea {
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font: italic 13px Georgia, "Times New Roman", Times, serif;
+  outline: none;
+  padding: 5px;
+  width: 200px;
+}
+.select_genres {
+  color: rgb(71, 71, 71);
+}
+.div-checkbox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_checkbox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.form-btn {
+  padding: 0.3rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  background: #407088;
+  border: none;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  display: block;
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 7px 25px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase;
+}
+.form-btn:hover {  
+  background: #343f56;
+  cursor: pointer;
+}

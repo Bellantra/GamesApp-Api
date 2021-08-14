@@ -1,0 +1,75 @@
+.header {
+  background-color: #2c5364;
+  padding: 10px;
+  display: flex;
+}
+.button {
+  background-color: whitesmoke;
+  width: 3rem;
+  justify-content: flex-start;
+  margin-left: 5rem;
+}
+
+.p-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../img/fondo4.jpg");
+}
+.general-container {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  /* border-color: teal; */
+}
+.detail-container {
+  border-radius: 10%;
+  /* border: 50px solid teal; */
+  width: 70%;
+  height: auto;
+  border: none;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.image {
+  height: 30%;
+  /* width: 50%; */
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+}
+.nombre{
+  color: whitesmoke;
+}
+.texto {  
+  font-size: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+  color: whitesmoke;
+}
+
+.loading{
+  color: whitesmoke;
+}

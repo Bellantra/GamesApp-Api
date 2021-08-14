@@ -1,0 +1,76 @@
+.header-home{
+display: flex;
+background-image: url("../../img/fondonav.jpg");
+
+
+}
+.header-home header{
+    display: flex;
+    width: 100%;
+}
+.imagen{
+    width: 20%;    
+
+}
+.imagen img{
+    border-radius: 50%;
+}
+.imagen img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    
+}
+.searchbar-container{
+    display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+.header-home img {
+    width: 4rem;
+    margin-left: 2rem;
+}
+.btn-container{
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.btn-container button {
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: #1883ba;
+    background-color: #ffffff;
+  
+    border-radius: 6px;
+    border: 2px solid #343a40;
+}
+.btn-container button:hover{
+    cursor: pointer;
+    color: #ffffff;
+  background-color: #c1c0b9;
+}
+
+.order-container{
+    width: 15%;
+    display: flex;
+}
+.filter-container{
+    width: 20%;
+    display: flex;
+}
+.cards-container{
+    background-image: url("../../img/fondo4.jpg");
+   
+}
+
+.loading h1{
+    color: whitesmoke;
+}
+.container{
+    background-image: url("../../img/fondo4.jpg");
+    height: 500px;
+}
