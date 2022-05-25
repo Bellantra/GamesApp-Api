@@ -12,6 +12,10 @@
 - [ ] Express
 - [ ] Sequelize - Postgres
 
+## Link a Deploy
+
+https://games-app-api.vercel.app/home
+
 
 ## Comenzando
 
