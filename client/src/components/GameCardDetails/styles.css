@@ -28,7 +28,7 @@
 .detail-container {
   border-radius: 10%;
   /* border: 50px solid teal; */
-  width: 70%;
+  width: 50%;
   height: auto;
   border: none;
   overflow: hidden;
@@ -53,6 +53,8 @@
 .image {
   height: 30%;
   /* width: 50%; */
+  
+	object-fit: cover;
 }
 
 .image img {

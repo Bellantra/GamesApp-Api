@@ -65,10 +65,17 @@ background-image: url("../../img/fondonav.jpg");
 .cards-container{
     background-image: url("../../img/fondo4.jpg");
    
+   
+}
+
+.loading{
+    background-image: url("../../img/fondo4.jpg");
+    min-height: 100vh;
 }
 
 .loading h1{
     color: whitesmoke;
+    
 }
 .container{
     background-image: url("../../img/fondo4.jpg");
