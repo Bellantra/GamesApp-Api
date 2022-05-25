@@ -1,41 +1,36 @@
 
 
-# GamesApp realizada con react-create-app, con back end que consume una Api
+# GamesApp made with react-create-app, with a back end who consume an Api
 
 <p align="center">
   <img height="400" src="./videogame.png" />
 </p>
 
-## Tecnologías necesarias:
+## Technologies used
+
 - [ ] React
 - [ ] Redux
 - [ ] Express
 - [ ] Sequelize - Postgres
 
-## Link a Deploy
+## Link a Deploy(Front in vercel, back in heroku)
 
 https://games-app-api.vercel.app/home
-
-
-## Comenzando
-
- 1. 
 
 
 
 ## BoilerPlate
 
-El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas estará el código del back-end y el front-end respectivamente.
+The boilerplate have 2 folders: `api` y `client`. In this folders will be the code of back-endand front-end respectively.
 
 
-## Cosas que podes hacer en esta App
+## What you can do with this App
 
-una aplicación en la cual se puedan ver los distintos videojuegos disponibles junto con información relevante de los mismos utilizando la api externa [rawg](https://rawg.io/apidocs) y a partir de ella poder, entre otras cosas:
+In this app  you can see the different video games available together with relevant information about them using the external api [rawg](https://rawg.io/apidocs) and from it you can, among other things:
 
-  - Buscar videjuegos
-  - Filtrarlos / Ordenarlos
-  - Agregar nuevos videojuegos
-
+  - Search video games
+  - Filter / Sort them
+  - Add new video games
 
 
 
